@@ -12,8 +12,8 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from functools import wraps
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')
-app.config['MONGO_URI'] = os.environ.get('MONGO_URI')
+app.config['SECRET_KEY'] = 'herecomesanyrandomsecretkey'
+app.config['MONGO_URI'] = 'mongodb://127.0.0.1:27017/Sporty'
 mongo = PyMongo(app)
 
 
