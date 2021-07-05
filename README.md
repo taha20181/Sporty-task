@@ -1,6 +1,7 @@
 # Sporty-task
 
 Clone the above repo
+
 cd Sporty-task
 
 ## Create and activate virtual env
